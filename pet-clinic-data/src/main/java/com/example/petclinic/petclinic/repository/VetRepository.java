@@ -1,4 +1,6 @@
 package com.example.petclinic.petclinic.repository;
 
-public interface VetRepository {
+import com.example.petclinic.petclinic.model.Vet;
+
+public interface VetRepository extends CustomRepository<Vet, Long> {
 }
